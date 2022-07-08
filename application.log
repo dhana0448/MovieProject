@@ -1,0 +1,37 @@
+2021-12-17 09:09:25,562 INFO com.example.demo.Springbootdemo2Application [main] Starting Springbootdemo2Application using Java 17.0.1 on LIN65004997 with PID 26596 (C:\Users\DSYKAM\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\springbootdemo\springbootdemo2\target\classes started by dsykam in C:\Users\DSYKAM\Documents\workspace-spring-tool-suite-4-4.13.0.RELEASE\springbootdemo\springbootdemo2)
+2021-12-17 09:09:25,564 INFO com.example.demo.Springbootdemo2Application [main] No active profile set, falling back to default profiles: default
+2021-12-17 09:09:26,236 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-17 09:09:26,286 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2021-12-17 09:09:26,490 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7dd6e624] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-17 09:09:26,532 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [main] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-12-17 09:09:26,751 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8086 (http)
+2021-12-17 09:09:26,763 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-12-17 09:09:26,763 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-12-17 09:09:26,883 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-12-17 09:09:26,884 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1284 ms
+2021-12-17 09:09:27,052 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-17 09:09:27,088 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-17 09:09:27,214 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-17 09:09:27,307 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-12-17 09:09:27,602 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-12-17 09:09:27,624 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-12-17 09:09:28,135 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-17 09:09:28,141 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-17 09:09:28,517 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-17 09:09:28,632 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-17 09:09:28,938 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8086 (http) with context path ''
+2021-12-17 09:09:28,939 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-12-17 09:09:28,957 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-12-17 09:09:28,978 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-12-17 09:09:29,086 INFO com.example.demo.Springbootdemo2Application [main] Started Springbootdemo2Application in 3.846 seconds (JVM running for 4.451)
+2021-12-17 09:09:50,648 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8086-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-17 09:09:50,649 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8086-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-17 09:09:50,650 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8086-exec-1] Completed initialization in 1 ms
+2021-12-17 09:09:50,668 INFO com.example.demo.controller.MovieController [http-nio-8086-exec-1] Message for INFO Logging level
+2021-12-17 09:09:50,668 ERROR com.example.demo.controller.MovieController [http-nio-8086-exec-1] Message for ERROR Logging level
+2021-12-17 09:09:50,668 WARN com.example.demo.controller.MovieController [http-nio-8086-exec-1] Message for WARN Logging level
+2021-12-17 09:09:50,668 DEBUG com.example.demo.controller.MovieController [http-nio-8086-exec-1] Message for DEBUG Logging level
+2021-12-17 09:22:36,155 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(21)-127.0.0.1] Application shutdown requested.
+2021-12-17 09:22:36,181 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(21)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-17 09:22:36,183 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-12-17 09:22:36,188 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(21)-127.0.0.1] HikariPool-1 - Shutdown completed.
